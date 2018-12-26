@@ -1,0 +1,41 @@
+{
+  "name": "slexx/comparisons-lang",
+  "type": "package",
+  "description": "Comparisons language",
+  "keywords": [
+    "lang",
+    "comparisons",
+    "laravel",
+    "eloquent filters",
+    "filters"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksei Shchepkin",
+      "email": "slexx1234@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "slexx1234@gmail.com"
+  },
+  "require": {
+    "illuminate/support": "^5.7",
+    "illuminate/database": "^5.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Slexx\\CL\\": "src/"
+    },
+    "exclude-from-classmap": [
+      "/tests/"
+    ]
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
