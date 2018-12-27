@@ -21,8 +21,8 @@
     "email": "slexx1234@gmail.com"
   },
   "require": {
-    "illuminate/support": "^5.7",
-    "illuminate/database": "^5.7"
+    "illuminate/support": "*",
+    "illuminate/database": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.2"
